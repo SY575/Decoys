@@ -11,15 +11,15 @@ The code was built based on [MOSES](https://github.com/molecularsets/moses). Tha
 ## Installation
 `python setup.py install`
 
-## Dataset
-We have prepared two training datasets based on different properties, toxicity and SA (Synthetic Accessibility). Both were created from a subset of the ZINC dataset.
+## Dataset preparation
+Unzip file `zinc_all.zip`, and run code `python build_dataset.py --path PATH` to preprocess the active molecules.
 
 ## Running MolSty
 To train model using MolSty, use:
 
 `python ./scripts/train.py MolSty --target TARGET --model_save ./checkpoints --n_batch 16 --n_ins 2`
 
-where `<TARGET>` is the name of dataset, "SA" and "TOX" are supported in this repository.
+where `<TARGET>` is the name of dataset.
 
 To generate molecules using MolSty, use:
 
