@@ -13,6 +13,7 @@ The code was built based on [MOSES](https://github.com/molecularsets/moses). Tha
 
 ## Dataset preparation
 Unzip file `zinc_all.7z`, and run code `python build_dataset.py --path PATH --target TARGET` to preprocess the active molecules, 
+
 where `<TARGET>` is the name of dataset.
 
 ## Running MolSty
