@@ -1,4 +1,4 @@
-# Molecular Attributes Transfer from Non-Parallel Data
+# Decoys
 The code was built based on [MOSES](https://github.com/molecularsets/moses). Thanks a lot for their code sharing!
 
 # Requirements
